@@ -6,7 +6,7 @@ const Navbar = () => {
   return(
     <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a href="https://bulma.io">
+    <a href="/">
       <img src={logo} width="500" height="250"/>
     </a>
 
@@ -23,44 +23,25 @@ const Navbar = () => {
         Home
       </a>
 
-      <a class="navbar-item">
+      <a class="navbar-item" href="/services">
         Services
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
+      <a class="navbar-item" href="/horses">
+        Horses
+      </a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider"/>
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
+      <a class="navbar-item" href="/shows">
+        Upcoming Shows
+      </a>
+
+      <a class="navbar-item" href="/contact">
+        Contact Us
+      </a>
     </div>
 
     <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
-      </div>
+      
     </div>
   </div>
 </nav>

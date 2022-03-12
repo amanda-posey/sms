@@ -5,8 +5,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <Navbar />
-    <Footer />
+    <h1 class="is-size-1 has-text-centered">Welcome to Silver Mist Stables!</h1>
     </>
   );
 }
