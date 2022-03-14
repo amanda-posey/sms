@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Horses from './components/Horses';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Upcoming from './components/Upcoming';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,7 +18,8 @@ ReactDOM.render(
       <Route path="/" element={<App />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/horses" element={<Horses />}>
+      <Route path="/horses" element={<Horses />} />
+      <Route path="/upcoming" element={<Upcoming />}>
       </Route>
     </Routes>
     <Footer />

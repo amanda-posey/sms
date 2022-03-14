@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bentham&family=Fredericka+the+Great&family=Great+Vibes&family=IM+Fell+English+SC&family=Oswald:wght@200&display=swap');
 
 .App {
   text-align: center;
@@ -30,8 +30,18 @@
   color: #61dafb;
 }
 
-.fancy-title {
-  font-family: 'Great Vibes', cursive;
-  position: relative;
-  padding: 120px 0px 0px 250px;
+.feature {
+  max-width: 75vw;
+}
+
+.card {
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  font-family: 'Bebas Neue', serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px lightgray;
+  text-align: center;
 }
