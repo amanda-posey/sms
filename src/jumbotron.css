@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bentham&family=Fredericka+the+Great&family=Great+Vibes&family=IM+Fell+English+SC&family=Oswald:wght@200&display=swap');
+
+  .bg-image {
+      background-image: url('./images/barn_wide.png');
+      height: 75vh;
+      margin-top: 58px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.8;
+  }
+
+  .navbar-light .navbar-brand {
+    font-family: 'Bebas Neue', serif;
+    font-size: 3rem;
+    color: #172742;
+    text-shadow: 1px 1px 2px lightgray;
+  }
+
+  .offer {
+    justify-content: start;
+    align-items: center;
+  }
+
+  .location {
+    justify-content: center;
+  }
+
+  .cover-1 {
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .cover-3 {
+    font-family: 'Oswald', serif;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3rem;
+    padding: 3.5rem;
+  }

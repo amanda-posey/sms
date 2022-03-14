@@ -8,6 +8,7 @@ import Horses from './components/Horses';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <Router>
